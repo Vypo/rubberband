@@ -1,0 +1,10 @@
+[package]
+name = "rubberband"
+version = "0.1.0"
+authors = ["Sam Wilson <sawilson@akamai.com>"]
+
+[dependencies]
+rand = "0.4.2"
+
+[target.'cfg(unix)'.dependencies]
+nix = "0.10"
